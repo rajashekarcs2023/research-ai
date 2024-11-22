@@ -38,7 +38,7 @@ def init_app():
         logger.info(f"Research AI started with address: {research_identity.address}")
         
         # Setup webhook
-        webhook_url = os.getenv("WEBHOOK_URL", "https://research-ai.onrender.com/webhook")
+        webhook_url = os.getenv("WEBHOOK_URL", "https://research-ai-1-f7zf.onrender.com/webhook")
         logger.info(f"Webhook URL: {webhook_url}")
         
         # Register with Agentverse

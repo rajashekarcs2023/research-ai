@@ -5,3 +5,4 @@ gunicorn
 langchain
 langchain-openai
 tavily-python
+langchain-community
