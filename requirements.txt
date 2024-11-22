@@ -1,0 +1,7 @@
+fetchai-sdk
+python-dotenv
+flask
+gunicorn
+langchain
+langchain-openai
+tavily-python
