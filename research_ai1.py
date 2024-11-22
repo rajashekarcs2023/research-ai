@@ -147,4 +147,7 @@ if __name__ == "__main__":
     logger.info("Registration successful")
     
     # Start Flask server
-    app.run(host='0.0.0.0', port=5001)
+    if __name__ == "__main__":
+    # Load environment variables
+        load_dotenv()
+        app.run()
