@@ -1,4 +1,4 @@
-fetchai-sdk
+fetchai
 python-dotenv
 flask
 gunicorn
